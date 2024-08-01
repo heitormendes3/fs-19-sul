@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Pessoal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class=" bg-black h-14 text-white flex justify-center items-center w-full">
+    <div class="flex w-full max-w-screen-lg justify-between">
+      <a href="#" class="text-xl">Meu Portfolio</a>
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+      </button>
+      <div id="navbarNav" class="">
+        <ul class="flex justify-around gap-3.5">
+          <li>
+            <a href="#about">Sobre</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção Sobre -->
+  <section id="about" class="">
+    <div >
+      <div class="flex justify-around items-center h-96 w-full">
+        <div class=" flex flex-col gap-3">
+          <h2 class="text-4xl font-semibold">Sobre Mim</h2>
+          <p>
+            Olá! Eu sou um desenvolvedor web com paixão por criar soluções inovadoras...
+          </p>
+          <div class="text-white">
+            <button class= "bg-sky-600 hover:bg-sky-700 rounded-lg px-3 py-1.5" >Linkedin</button>
+            <button class= "bg-sky-600 hover:bg-sky-700 rounded-lg px-3 py-1.5">Instagram</button>
+            <button class= "bg-sky-600 hover:bg-sky-700 rounded-lg px-3 py-1.5">Github</button>
+          </div>
+        </div>
+        <div class="bg-[url('https://github.com/gildembergleite.png')] rounded-full size-72 bg-center bg-cover" alt="Minha Foto" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projects">
+    <div class="flex flex-col items-center py-12" >
+      <h2 class="text-4xl font-semibold">Meus Projetos</h2>
+      <div>
+        <div class="grid grid-cols-3 gap-4 p-6">
+          <div class="w-80 border-2 border-slate-300 rounded-lg col-span-1 overflow-hidden" >
+            <img src="https://img.odcdn.com.br/wp-content/uploads/2023/08/web-crawler-1024x576.jpg" alt="Projeto 1">
+            <div class="py-4 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 1...</p>
+            </div>
+          </div>
+          <div class="w-80 border-2 border-slate-300 rounded-lg col-span-1 overflow-hidden" >
+            <img src="https://img.odcdn.com.br/wp-content/uploads/2023/08/web-crawler-1024x576.jpg" alt="Projeto 1">
+            <div class="py-4 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 2...</p>
+            </div>
+          </div>
+          <div class="w-80 border-2 border-slate-300 rounded-lg col-span-1 overflow-hidden" >
+            <img src="https://img.odcdn.com.br/wp-content/uploads/2023/08/web-crawler-1024x576.jpg" alt="Projeto 1">
+            <div class="py-4 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 3...</p>
+            </div>
+          </div>
+          <div class="w-80 border-2 border-slate-300 rounded-lg col-span-1 overflow-hidden" >
+            <img src="https://img.odcdn.com.br/wp-content/uploads/2023/08/web-crawler-1024x576.jpg" alt="Projeto 1">
+            <div class="py-4 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 4...</p>
+            </div>
+          </div>
+          <div class="w-80 border-2 border-slate-300 rounded-lg col-span-1 overflow-hidden" >
+            <img src="https://img.odcdn.com.br/wp-content/uploads/2023/08/web-crawler-1024x576.jpg" alt="Projeto 1">
+            <div class="py-4 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 5...</p>
+            </div>
+          </div>
+          <div class="w-80 border-2 border-slate-300 rounded-lg col-span-1 overflow-hidden" >
+            <img src="https://img.odcdn.com.br/wp-content/uploads/2023/08/web-crawler-1024x576.jpg" alt="Projeto 1">
+            <div class="py-4 px-2 space-y-2">
+              <h5 class="text-xl font-semibold">Projeto</h5>
+              <p>Descrição breve do projeto 6...</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contact">
+    <div class="w-full max-w-screen-lg mx-auto flex flex-col space-y-6 py-12">
+      <h2 class="text-4xl font-semibold text-center">Contato</h2>
+      <form class="space-y-2">
+        <div class="flex flex-col gap-2">
+          <label for="name">Nome</label> 
+          <input type="text" id="name" required class="border border-slate-300 rounded-lg p-1 w-full">
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="email">Email</label> 
+          <input type="email" id="email" required class="border border-slate-300 rounded-lg p-1 w-full">
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="message">Mensagem</label> 
+          <textarea id="message" rows="4" required class="border border-slate-300 rounded-lg p-1 w-full"></textarea>
+        </div>
+        <button type="submit" class= "bg-sky-600 hover:bg-sky-700 rounded-lg px-3 py-1.5 text-white" >Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-black w-full p-5 text-white flex justify-center mt-6">
+    <p>&copy; 2024 Meu Portfolio. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
