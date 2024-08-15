@@ -1,0 +1,80 @@
+https://github.com/gildembergleite/fs-39/blob/main/aula-15/atividade-condicionais.md
+
+Exercício 1
+
+const a = Number(prompt('Digite o valor de A: '))
+const b = Number(prompt('Digite o valor de B: '))
+const c = Number(prompt('Digite o valor de C: '))
+
+if (c <= a+b){
+    
+    console.log('A soma de A + B é menor que C')
+    
+}else{
+    console.log('A soma de A + B é maior que C')
+}
+
+
+Exercício 2:
+const nome = prompt('Digite seu nome: ')
+const sexo = prompt('Informe o sexo F/M: ')
+const estadocivil = prompt('Qual estado civil: ')
+
+if (sexo == 'F' && estadocivil == 'CASADA'){
+    prompt('Digite o seu tempo de casada (anos):')
+}else{
+    
+}
+
+Exercício 3:
+
+const numero = Number(prompt('Digite um número: '))
+const parouimpar = numero % 2
+if(parouimpar === 0){
+ console.log('O número é par!')
+}else{
+    console.log('O número é ímpar!')
+}
+
+Exercício 4:
+
+const NumA = Number(prompt('Digite o valor de A: '))
+const NumB = Number(prompt('Digite o valor de B: '))
+
+if(NumA === NumB){
+    const C = NumA+NumB
+    console.log('A soma de A e B é: '+C)
+} else {
+    const C = NumA*NumB
+    console.log('A multiplicação de A e B é: '+C)
+}
+
+Exercício 5:
+
+const Num = Number(prompt('Digite um número: '))
+
+
+if(Num > 0){
+    const C = Num*2
+    console.log(`O dobro de ${Num} é: `+C)
+} else {
+    const C = Num*3
+    console.log(`O triplo de ${Num} é: `+C)
+}
+
+Exercício 6:
+
+const string1 = prompt('Digite VERDADEIRO ou FALSO: ')
+const string2 = prompt('Digite VERDADEIRO ou FALSO: ')
+
+
+if(string1 && string2 === 'VERDADEIRO' ){
+    console.log('VERDADEIRO')
+} else  {
+    console.log('FALSO')
+}
+
+
+
+
+
