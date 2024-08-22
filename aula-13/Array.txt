@@ -1,0 +1,49 @@
+=> imprima de 1 a 10
+for (let i = 1; i<=10; i++){
+    console.log(i)
+}
+
+=> imprima de de 10 a 1
+for (let i = 10; i>=1; i--){
+    console.log(i)
+}
+
+=> Números pares de 1 a 20
+for (let i = 1; i<=20; i++){
+    if (i % 2 === 0) {
+        console.log(i)
+    } 
+}
+
+=> Numeros impares de 1 a 20
+for (let i = 1; i<=20; i++){
+    if (i % 2 > 0) {
+        console.log(i)
+    } 
+}
+
+=> Soma dos  num de 1 a 100
+let soma = 0
+for (let i = 1; i<=100; i++){
+    soma += i
+}
+console.log(soma)
+
+=> Fatorial
+let numero = +prompt("Digite um número: ")
+let fatorial =1
+for (let i = numero; i >= 1; i--){
+    
+     fatorial *= i
+}
+console.log(fatorial)
+
+=> Imprimir os itens de um array
+let numero = [1,2,3,4,5] 
+let tamanho = numero.length
+
+for (let i = 0; i < tamanho; i++){
+     console.log(numero[i])
+}
+
+=> 
