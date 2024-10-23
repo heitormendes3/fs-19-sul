@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": "3f79",
+      "name": "teste",
+      "price": "20",
+      "category": "Tecnologia"
+    }
+  ]
+}
